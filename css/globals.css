@@ -1,3 +1,21 @@
+/* VARIABLES */
+:root {
+  --primary-color: #003de6;
+  --secondary-color: #0a2c5a;
+  --tertiary-color: #797a7b;
+  --ligth-blue-1: #44c2fd;
+  --ligth-blue-2: #0074fa;
+  --ligth-blue-3: #cff0ff;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #000000;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--secondary-color);
 }

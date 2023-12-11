@@ -1,0 +1,38 @@
+nav.navbar {
+  background-color: var(--secondary-color) !important;
+}
+
+.navbar-toggler {
+  background-color: var(--tertiary-color);
+}
+
+a.nav-link {
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+a.nav-link:hover {
+  background-color: var(--primary-text-color);
+  color: var(--secondary-color);
+  border-radius: 10px;
+}
+
+img.slca-logo {
+  height: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  img.slca-logo {
+    height: 40px;
+  }
+
+  a.nav-link {
+    padding-left: 1rem;
+  }
+  
+  .navbar {
+    height: auto;
+  }
+}
