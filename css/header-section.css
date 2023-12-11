@@ -6,6 +6,12 @@
   background-color: var(--ligth-blue-3);
 }
 
+.header-section__video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header-section__video {
   cursor: pointer;
   width: 600px;
