@@ -1,0 +1,28 @@
+.cta-section {
+  display: flex;
+  height: 250px;
+  background-color: var(--primary-color);
+}
+
+.cta-section__text {
+  color: var(--primary-text-color);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.cta-section__button {
+  padding: 1rem 2rem;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+  -moz-box-shadow: 10px 10px 15px -5px rgba(0,0,0,0.25);
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-section__button:hover {
+  background-color: var(--ligth-blue-2);
+  transform: scale(1.05, 1.05);
+}
