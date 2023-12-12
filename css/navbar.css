@@ -12,6 +12,7 @@ a.nav-link {
   border-bottom: transparent 3px solid;
 }
 
+a.nav-link.active,
 a.nav-link:hover {
   border-bottom: var(--primary-color) 3px solid;
 }
