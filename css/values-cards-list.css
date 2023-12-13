@@ -1,15 +1,63 @@
+.values-section {
+  background-color: var(--ligth-blue-3);
+  position: relative;
+}
+
 .values-list {
   margin: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.values-section__title {
+  text-align: center;
+  font-weight: 300;
+  color: var(--tertiary-color);
+}
+
+.values-section__title--highlight {
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.values-section__mision-vision {
+  margin: 2rem 0;
   display: flex;
-  flex-direction: row;
-  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.values-section__mision-vision-item {
+  width: 80%;
+  padding: 2rem !important;
+  background-color: var(--secondary-color);
+  border-radius: 16px;
+}
+
+.values-section__mision-vision-item:first-of-type {
+  margin-bottom: 2rem;
+}
+
+.values-section__mision-vision-title {
+  color: var(--ligth-blue-1);
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+.values-section__mision-vision-text {
+  color: var(--primary-text-color);
 }
 
 .value-card {
-  width: 200px;
-  height: 300px;
+  width: auto;
+  height: 150px;
   perspective: 1000px;
   transition: transform 0.2s ease-in-out;
+}
+
+.value-card__number {
+  font-weight: 600;
 }
 
 .value-card:hover {
@@ -30,6 +78,7 @@
 }
 
 .value-card__face {
+  z-index: 100;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -41,24 +90,28 @@
 }
 
 .value-card__face--front {
-  padding: 3rem;
-  background-color: var(--ligth-blue-2);
+  padding: 1rem 2rem;
+  background-color: var(--fourth-color);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.value-card__face--front h4 {
-  color: var(--primary-text-color);
+.value-card__face--front > img {
+  height: 48px;
+  margin-bottom: 1rem;
 }
 
-.value-card__title {
-  margin: 0 4rem;
+.value-card__face--front h4 {
+  color: var(--secondary-text-color);
+  font-size: 1rem;
+  text-align: center;
 }
 
 .value-card__face--back {
   padding: 1rem;
-  background-color: var(--ligth-blue-1);
+  background-color: var(--secondary-color);
   transform: rotateY(180deg);
 }
 
@@ -68,25 +121,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--primary-text-color);
+  font-size: 0.8rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .values-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 1rem;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr;
   }
 }
 
 @media screen and (max-width: 767px) {
   .values-list {
-    display: flex;
-    flex-direction: column;
+    margin: 2rem;
     gap: 1rem;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: 1fr;
   }
 }
