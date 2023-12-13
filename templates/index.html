@@ -2,48 +2,47 @@
 
 <!-- wp:template-part {"slug":"navbar","area":"navbar","tagName":"navbar"} /-->
 
-<section class="header-section d-flex align-items-center py-5">
+<section class="header-section">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 d-flex justify-content-center">
-        <!-- wp:pattern {"slug":"slca-challenge/header-video"} /-->
-      </div>
-      <div class="col-md-6 text-end">
+      <div class="col-xl-6">
         <div class="header-section__text-container h-100 w-100 d-flex flex-column justify-content-center">
           <h1 class="header-section__title mb-2">
-            Somos el único Partner registrado de Salesforce para El Salvador y
-            uno de los pocos para Centroamérica.
+            Somos el único <span class="header-section__title--highlight">Partner registrado de Salesforce para El Salvador</span> 
+            y uno de los pocos para Centroamérica. Silverline Central América es un Nearshore Support Partner para Norteamérica.
           </h1>
-          <p class="header-section__text">
-            Silverline Central América es un Nearshore Support Partner para
-            Norteamérica.
-          </p>
+
+          <div class="header-section__cta-container">
+            <!-- wp:pattern {"slug":"slca-challenge/header-cta"} /-->
+          </div>
         </div>
+      </div>
+      
+      <div class="col-xl-6">
+        <!-- wp:pattern {"slug":"slca-challenge/header-video"} /-->
       </div>
     </div>
   </div>
+  <div class="header-section__lower-curve"></div>
 </section>
 
-<section class="about-section d-flex align-items-center py-5">
-  <div class="container">
+<section class="about-section d-flex align-items-center">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-12">
-        <h2 id="nuestraHistoria" class="section-title">Nuestra Historia</h2>
+      <div class="col-md-4 about-section__right-container">
+        <div class="about-section__image-container h-100 w-100">
+          <!-- wp:pattern {"slug":"slca-challenge/about-image"} /-->
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-9 d-flex justify-content-center">
-        <div class="about-section__text h-100 w-100 d-flex flex-column justify-content-center">
-          <h4>¿Quiénes Somos?</h4>
+
+      <div class="col-md-8 about-section__left-container">
+        <div class="about-section__text">
+          <h2 id="nuestraHistoria" class="about-section__title">Nuestra <span class="about-section__title--highlight">Historia</span></h2>
+          <h4 class="about-section__subtitle">¿Quiénes Somos?</h4>
           <p>Adapta Technologies nació como una empresa 100% Salvadoreña iniciando operaciones en 2011 con 4 empleados.</p>
           <p>En 2013 nos convertimos en el primer y único Partner registrado de Salesforce. Desde entonces, 
             hemos ofrecido desarrollo de software e implementación de Salesforce para clientes de Norteamérica y Centroamérica.</p>
           <p>En mayo de 2021 nos fusionamos con Silverline, una consultora de transformación digital y Salesforce Partner con sede en Nueva York.</p>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="about-section__image-container h-100 w-100">
-          <!-- wp:pattern {"slug":"slca-challenge/about-image"} /-->
         </div>
       </div>
     </div>
@@ -54,121 +53,36 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 id="nuestrosValores" class="section-title">Nuestros Valores</h2>
+        <h2 id="nuestrosValores" class="values-section__title">Nuestros <span class="values-section__title--highlight">Valores</span></h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <div class="values-list">
+      <div class="col-md-6">
+        <!-- wp:pattern {"slug":"slca-challenge/values-list"} /-->
+      </div>
 
-          <div class="value-card">
-            <div class="value-card__inner">
-              <div class="value-card__face value-card__face--front">
-                <h4 class="value-card__title">Enfocados en nuestros colaboradores</h4>
-              </div>
-              <div class="value-card__face value-card__face--back">
-                <p class="value-card__content">
-                  Nuestros colaboradores son lo más importante. No hay nada más importante.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="value-card">
-            <div class="value-card__inner">
-              <div class="value-card__face value-card__face--front">
-                <h4 class="value-card__title">Libertad</h4>
-              </div>
-              <div class="value-card__face value-card__face--back">
-                <p class="value-card__content">
-                  Libertad de expresión, de preferencias de cualquier tipo, de horarios, y financieras.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="value-card">
-            <div class="value-card__inner">
-              <div class="value-card__face value-card__face--front">
-                <h4 class="value-card__title">Integridad</h4>
-              </div>
-              <div class="value-card__face value-card__face--back">
-                <p class="value-card__content">
-                  Hacer lo correcto siempre, aunque nadie esté mirando.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="value-card">
-            <div class="value-card__inner">
-              <div class="value-card__face value-card__face--front">
-                <h4 class="value-card__title">Accountability</h4>
-              </div>
-              <div class="value-card__face value-card__face--back">
-                <p class="value-card__content">
-                  Cada uno debe de ser dueño de las tareas asignadas, 
-                  debe de ser proactivo para lograrlas ejecutar y se debe de hacer responsable de los resultados ya sean positivos o negativos.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="value-card">
-            <div class="value-card__inner">
-              <div class="value-card__face value-card__face--front">
-                <h4 class="value-card__title">Equidad</h4>
-              </div>
-              <div class="value-card__face value-card__face--back">
-                <p class="value-card__content">
-                  Somos justos y cada uno recibe recompensas y oportunidades en base a sus méritos sin preferencias de ningún tipo.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="value-card">
-            <div class="value-card__inner">
-              <div class="value-card__face value-card__face--front">
-                <h4 class="value-card__title">Lealtad</h4>
-              </div>
-              <div class="value-card__face value-card__face--back">
-                <p class="value-card__content">
-                  Somos agradecidos con quienes nos ayudan, mostramos respeto y fidelidad hacia los compromisos que adquirimos.
-                </p>
-              </div>
-            </div>
-          </div>
-          
+      <div class="col-md-6 values-section__mision-vision">
+        <div class="values-section__mision-vision-item p-4">
+          <h3 class="values-section__mision-vision-title">Misión</h3>
+          <p class="values-section__mision-vision-text">Ser el mejor lugar para trabajar en El Salvador y la región. Dónde se generan las mejores oportunidades de empleo, 
+            donde nos interesamos y creemos genuinamente en nuestros colaboradores, donde invertimos en su desarrollo y donde el mejor talento elige trabajar.</p>
         </div>
-      </div>
-    </div>
-    <div class="row mt-5">
-      <div class="col-md-6 p-4">
-        <h5>Misión</h5>
-        <p>Ser el mejor lugar para trabajar en El Salvador y la región. Dónde se generan las mejores oportunidades de empleo, 
-          donde nos interesamos y creemos genuinamente en nuestros colaboradores, donde invertimos en su desarrollo y donde el mejor talento elige trabajar.</p>
-      </div>
-      <div class="col-md-6 p-4">
-        <h5>Visión</h5>
-        <p>Posicionar a El Salvador y la región centroamericana en la élite del ecosistema Salesforce como el lugar donde se desarrolla a los mejores consultores.</p>
+        <div class="values-section__mision-vision-item p-4">
+          <h3 class="values-section__mision-vision-title">Visión</h3>
+          <p class="values-section__mision-vision-text">Posicionar a El Salvador y la región centroamericana en la élite del ecosistema Salesforce como el lugar donde se desarrolla a los mejores consultores.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <section class="certifications-section d-flex align-items-center py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <h2 id="nuestrasCertificaciones" class="section-title">Nuestras certificaciones</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
+  <div class="container-fluid">
+    <div class="row d-flex flex-column justify-content-center align-items-center">
+      <div class="col-md-12 certifications-section__text">
+        <h2 id="nuestrasCertificaciones" class="certifications-section__title">Nuestras <span class="certifications-section__title--highlight">Certificaciones</span></h2>
         <p>Reflejo de nuestra experticia y del nivel de dominio de la tecnología de Salesforce junto con sus complementos,
-           orgullosamente compartimos el número de certificaciones que poseemos en Silverline Central America.</p>
+          orgullosamente compartimos el número de certificaciones que poseemos en Silverline Central America.</p>
       </div>
     </div>
 
@@ -200,25 +114,9 @@
   </div>
 </section>
 
-<section class="testimonials-section d-flex align-items-center py-5">
+<section class="testimonials-section d-flex align-items-center pt-5">
   <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-12">
-        <h2 id="testimonios" class="section-title">Testimonios</h2>
-      </div>
-    </div>
-      <!-- wp:pattern {"slug":"slca-challenge/testimonial-1"} /-->
-
-      <!-- wp:pattern {"slug":"slca-challenge/testimonial-2"} /-->
-      
-      <!-- wp:pattern {"slug":"slca-challenge/testimonial-3"} /-->
-  </div>
-</section>
-
-<section class="cta-section">
-  <div class="cta-section__container container d-flex flex-column justify-content-center align-items-center">
-    <h2 class="cta-section__text">¿Quieres saber cómo convertirte en un Consultor Salesforce de primer nivel?</h2>
-    <button id="cta" class="cta-section__button" type="button">Saber más</button>
+      <!-- wp:pattern {"slug":"slca-challenge/testimonials-list"} /-->
   </div>
 </section>
 

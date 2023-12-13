@@ -7,6 +7,7 @@ function slcachallenge_styles(){
   wp_enqueue_style('globals', get_stylesheet_directory_uri() . '/css/globals.css');
   wp_enqueue_style('navbar', get_stylesheet_directory_uri() . '/css/navbar.css');
   wp_enqueue_style('header-section', get_stylesheet_directory_uri() . '/css/header-section.css');
+  wp_enqueue_style('about-section', get_stylesheet_directory_uri() . '/css/about-section.css');
   wp_enqueue_style('values-cards-list', get_stylesheet_directory_uri() . '/css/values-cards-list.css');
   wp_enqueue_style('slides', get_stylesheet_directory_uri() . '/css/slides.css');
   wp_enqueue_style('testimonials', get_stylesheet_directory_uri() . '/css/testimonials.css');

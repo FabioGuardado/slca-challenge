@@ -8,7 +8,6 @@
 ?>
 
 <div class="slide__content">
-  <h4 class="slide__title">Consultant</h4>
   <div class="slide__images">
     <img class="slide__image" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Certificaciones/Consultant/consultant1.svg" />
     <img class="slide__image" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Certificaciones/Consultant/consultant2.svg" />
@@ -21,4 +20,5 @@
     <img class="slide__image" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Certificaciones/Consultant/consultant9.svg" />
     <img class="slide__image" src="<?php echo get_stylesheet_directory_uri() ?>/assets/img/Certificaciones/Consultant/consultant10.svg" />
   </div>
+  <h4 class="slide__title">Consultant</h4>
 </div>

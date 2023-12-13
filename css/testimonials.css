@@ -1,46 +1,113 @@
 .testimonials-section {
-  background-color: var(--ligth-blue-1);
+  background-color: var(--fourth-color);
+  padding-bottom: 5rem;
+}
+
+.testimonial__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .testimonial__container {
-  padding: 1rem;
-  width: 80%;
+  margin-top: 5rem;
+  width: 300px;
+  background-color: var(--ligth-blue-2);
+  border-radius: 35px;
+}
+
+.testimonial__header {
+  position: relative;
+  height: 100px;
   display: flex;
-  flex-direction: row;
-  background-color: var(--ligth-blue-3);
-  color: var(--secondary-text-color);
-  border-radius: 15px;
+  justify-content: center;
 }
 
 .testimonial__image {
   height: 250px;
+  position: absolute;
+  top: -150px;
+}
+
+.testimonial__body {
+  height: 180px;
 }
 
 .testimonial__text {
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-style: italic;
+  margin: 0 1.5rem;
+  color: var(--primary-text-color);
+  text-align: center;
+  font-weight: 300;
+  font-size: 0.8rem;
 }
 
-.testimonial__title {
-  text-transform: uppercase;
-  color: var(--secondary-color);
-  font-weight: 700;
+.testimonial__footer {
+  margin-top: 2rem;
+  width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+.testimonial__name {
+  margin-bottom: 0 !important;
+  font-weight: 600;
+}
+
+.testimonial__position {
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.testimonial__name,
+.testimonial__position {
+  color: var(--primary-text-color);
+  text-align: end;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .testimonial__container {
-    width: 90%;
-    padding: 1rem 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-top: 2rem;
+    width: 200px;
+  }
+
+  .testimonial__header {
+    height: 75px;
+  }
+
+  .testimonial__image {
+    height: 150px;
+    top: -85px;
+  }
+
+  .testimonial__body {
+    height: 220px;
   }
 
   .testimonial__text {
-    margin: 1rem 1rem 0 1rem;
-    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .testimonial__name,
+  .testimonial__position {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .testimonial__list {
+    flex-direction: column;
+  }
+
+  .testimonial__container:first-of-type {
+    margin-top: 5rem;
+  }
+
+  .testimonial__container {
+    margin-top: 12rem;
+  }
+
+  .testimonial__container:last-of-type {
+    margin-bottom: 4rem !important;
   }
 }
