@@ -1,5 +1,6 @@
 .testimonials-section {
   background-color: var(--fourth-color);
+  padding-bottom: 5rem;
 }
 
 .testimonial__list {
@@ -93,6 +94,7 @@
 }
 
 @media screen and (max-width: 767px) {
+
   .testimonial__list {
     flex-direction: column;
   }
@@ -103,5 +105,9 @@
 
   .testimonial__container {
     margin-top: 12rem;
+  }
+
+  .testimonial__container:last-of-type {
+    margin-bottom: 4rem !important;
   }
 }
