@@ -4,10 +4,6 @@
   position: relative;
 }
 
-.about-section {
-  background-color: var(--ligth-blue-3);
-}
-
 .header-section__video-container {
   height: 100%;
   width: 100%;
@@ -61,25 +57,11 @@
   bottom: -123px;
   left: 0;
   right: 0;
-  z-index: 20;
+  z-index: 2;
   background-image: url("../assets/img/lower-curve-white.svg");
   background-position: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.about-section {
-  padding-top: 200px;
-  position: relative;
-  z-index: 1;
-}
-
-.about-section__image {
-  height: 280px;
-}
-
-.about-section__image-container {
-  display: flex;
-  justify-content: center;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -96,14 +78,6 @@
 
   .header-section__cta-container {
     margin-bottom: 2rem;
-  }
-
-  .about-section {
-    padding-top: 300px;
-  }
-
-  .about-section__image {
-    height: 350px;
   }
 }
 
@@ -137,9 +111,5 @@
     left: initial;
     right: initial;
     bottom: -225px;
-  }
-  
-  .about-section {
-    padding-top: 150px;
   }
 }
